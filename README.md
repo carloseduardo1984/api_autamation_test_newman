@@ -1,5 +1,7 @@
 # api_autamation_test_newman
-api_autamation_test_newman
+
+
+Guidence:
 
 Do the Export files about the Postman Collection and environment as JSON format.
 
