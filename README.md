@@ -1,6 +1,7 @@
 # api_autamation_test_newman
 
 
+
 Guidence:
 
 Do the Export files about the Postman Collection and environment as JSON format.
@@ -12,3 +13,4 @@ Tö run > newman run example.postman_collection.json -e workspace.postman_global
 
 To run with html report > newman run example.postman_collection.json -e workspace.postman_globals.json -r htmlextra --reporter-htmlextra-export testResults/htmlreport.html
 
+( Tip for Actions setup: https://crontab.guru/) 
