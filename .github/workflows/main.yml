@@ -1,13 +1,13 @@
 name: Test-API-newman
 on:
-  schedule:
-  - cron: "0 */6 * * 1-5"
+  schedule: #Execução agendada de segunda a sexta de 6 em 6 horas
+  - cron: "0 */6 * * 1-5" 
   
-  push:
+  push:  #Execução por atualização do github na branch main
     branches:
      - 'main'
       
-  workflow_dispatch:
+  workflow_dispatch:  #Execução manual
       
       
 jobs:
